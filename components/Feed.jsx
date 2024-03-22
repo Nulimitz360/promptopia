@@ -50,7 +50,7 @@ const Feed = () => {
         />
       </form>
 
-      <PromptCardList data={[]} />
+      <PromptCardList data={posts} />
     </section>
   );
 };
